@@ -26,6 +26,7 @@ nav a {
 
 nav a:hover {
   background-color: #0c3c68;
+  color: #cce5ff;
 }
 
 main {
@@ -41,12 +42,27 @@ section {
   border: 1px solid #cccccc;
 }
 
-h1, h2 {
+h2 {
   color: #145da0;
 }
 
 #perfil {
   text-align: center;
+}
+
+.nombre {
+  color: #145da0;
+  font-size: 32px;
+}
+
+.especialidad {
+  color: #145da0;
+  font-size: 24px;
+}
+
+#descripcion {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .boton {
